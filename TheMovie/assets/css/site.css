@@ -1,0 +1,40 @@
+.card{
+    width:500px;
+}
+
+.login, .register{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.menus{
+    margin-top: 150px;
+}
+
+/* .tabela{
+    margin-top: 50px;
+} */
+
+@media only screen and (max-device-width: 300px) {
+    .card{
+        width:300px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+    .card{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-device-width: 700px) {
+    .card{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-device-width: 800px) {
+    .card{
+        width: 380px;
+    }
+}
